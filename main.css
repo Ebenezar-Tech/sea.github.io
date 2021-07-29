@@ -190,15 +190,15 @@ footer
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 2fr 1fr;
         grid-template-areas: 
-        "nav"
+        "banner"
         "main"
         "sidebar"
         "footer";
         margin: 0;
         align-items: center;
     }
-    nav{
-        grid-area: nav;
+    #banner{
+        grid-area: banner;
     }
     main{
         grid-area: main;
