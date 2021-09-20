@@ -131,13 +131,14 @@ main{
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
+    width:60%;
     grid-area: un;
 }
 .pd
 {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+    width:60%;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -152,7 +153,8 @@ main{
 }
 .lrb input
 {
-    margin-right: 20px;
+    margin-right: 5px;
+    width:50%;
 }
 
 #sidebar p
@@ -253,11 +255,27 @@ footer
         margin-left:auto;
         margin-right:auto;
         display:table;
-        
+        width:60%;
         height: 250px;
        
         grid-area: sidebar;
     }
+    .un{
+        width:80%;
+    }
+    .pd{
+        width:80%;
+    }
+    .lrb{
+        margin-left: auto;
+    margin-right: auto;
+    }
+    .lrb input
+{
+    margin-right: 15px;
+ 
+    width:30%;
+}
     .card{
         margin-top: 140px;
         margin-bottom: 20px;
