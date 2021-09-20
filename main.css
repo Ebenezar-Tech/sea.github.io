@@ -223,6 +223,7 @@ footer
     main{
         grid-area: main;
         color:cornsilk;
+
     }
     #banner{
         position:absolute;
@@ -241,9 +242,12 @@ footer
     #sidebar
     {
         float: left;
-        margin-top: 80px;
+        margin-left:auto;
+        margin-right:auto;
+        display:table;
+        
         height: 250px;
-        margin-bottom: 20px;
+       
         grid-area: sidebar;
     }
     .card{
