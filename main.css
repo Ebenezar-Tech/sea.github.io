@@ -92,8 +92,8 @@ main{
 { 
     
     margin: 6% 10% 10% 13%;
-    width: 300px;
-    height: 450px;
+    width: 50%;
+    height: 50%;
     background: white;
     grid-area: sidebar;
     align-content: center;
@@ -121,6 +121,7 @@ main{
 .lb
 {
     grid-area: lb;
+    margin-top:10%;
 }
 .un
 {
@@ -156,7 +157,7 @@ main{
 
 #sidebar p
 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .wim
