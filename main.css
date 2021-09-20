@@ -222,6 +222,7 @@ footer
     }
     main{
         grid-area: main;
+        color:cornsilk;
     }
     #banner{
         position:absolute;
