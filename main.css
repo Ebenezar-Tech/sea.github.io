@@ -91,7 +91,7 @@ main{
 #sidebar
 { 
     
-    margin: 10% 10% 10% 13%;
+    margin: 6% 10% 10% 13%;
     width: 300px;
     height: 450px;
     background: white;
@@ -102,7 +102,7 @@ main{
     border-style: groove;
     border-color: black;
     border-radius: 10px;
-    background: rgba(155,155,155,0.8);
+    background: white;
     color: black;
     margin-top: 50px;
     margin-right: 20px;
@@ -126,22 +126,28 @@ main{
 {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float:left;
-    margin-top: 20px;
+   
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
     grid-area: un;
 }
 .pd
 {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float:left;
-    margin-top: 20px;
+   
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
     grid-area: pd;
 }
 .lrb
 {
     grid-area: lrb;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .lrb input
 {
@@ -221,6 +227,7 @@ footer
         grid-area: banner;
     }
     main{
+        margin-top:2%;
         grid-area: main;
         color:cornsilk;
 
